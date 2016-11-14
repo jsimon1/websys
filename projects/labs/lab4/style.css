@@ -1,0 +1,76 @@
+html{
+  font-family: "Times New Roman", Times, serif;
+  font-size:12px;
+}
+#myPlaylist{
+  display:inline-block;
+  height:100%;
+  width:100%;
+  border: 5px solid black;
+  border-radius: 8px;
+  background-color:#2980b9;
+}
+#myPlaylist img{
+  height:10%;
+  width:10%;
+}
+#title{
+  width:15em;
+  height:100%;
+  display:inline-block;
+  float:left;
+  font-variant: small-caps;
+}
+#artist{
+  width:15em;
+  height:100%;
+  display:inline-block;
+  float:left;
+}
+#album{
+  width:15em;
+  height:100%;
+  display:inline-block;
+  float:left;
+  font-style: italic;
+}
+#albumCover{
+  width:15em;
+  height:100%;
+  display:inline-block;
+  float:right;
+}
+#albumCover img {
+  display:block;
+  height:8em;
+  width:8em;
+}
+#date{
+  width:15em;
+  height:100%;
+  display:inline-block;
+  float:left;
+}
+#genreDiv{
+  width:15em;
+  height:100%;
+  display:inline-block;
+  float:left;
+}
+.cell {
+  width:15em;
+  height:8em;
+  display:inline-block;
+}
+
+.bulletStyle{
+  list-style-type:none;
+}
+
+li:before {
+  content: " - ";
+}
+
+footer{
+  text-align: center;
+}

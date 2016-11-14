@@ -1,0 +1,26 @@
+html{
+  font-size: 16px;
+}
+
+h2{
+  text-decoration: underline
+}
+
+#myProjects {
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#title {
+  display:inline-block;
+  margin-left:5px;
+  margin-right:10px;
+}
+#desc {
+  display:inline-block;
+  margin-right:10px;
+}
+#link {
+  display: inline-block;
+  margin-right:5px;
+}

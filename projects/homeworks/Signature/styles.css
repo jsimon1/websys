@@ -1,0 +1,68 @@
+html{
+    font-family: "Times New Roman", Times, serif;
+    font-size:10px;
+}
+#signature {
+	width:30em;
+	height: 15em;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+#leftside {
+	width:10em;
+	height:15em;
+	margin-right:1em;
+	float:left;
+}
+#rightside {
+	width:20em;
+	height: 15em;
+	margin-right:1em;
+	padding-left:10em;
+}
+#name{
+	font-size:3em;
+}
+#college{
+	font-size:2em;
+}
+#me {
+	width:10em;
+	height:10em;
+	border-radius:20px;
+	padding-left:0.5em;
+	padding-top:0.5em;
+	display:block;
+}
+#links {
+	padding-left: 1em;
+	display:inine;
+	padding-top:0.5em;
+}
+#links img {
+	float:right;
+	margin-right:1em;
+}
+
+#me::after {
+	content: "<br>";
+}
+#contactheader{
+	padding-left:3em;
+}
+#contactheader p {
+	display:inline;
+	margin-right:2em;
+	font-size:1.5em;
+	color:#006400;
+}
+#contact {
+	padding-left:1em;
+	padding-top:2em;
+}
+#contact p {
+	display:inline;
+	margin-right:1em;
+	font-size:1em;
+	color:#B22222;
+}

@@ -1,0 +1,51 @@
+html{
+  font-size:12px;
+}
+#calculator {
+  width: 40em;
+  height: 40em;
+  background-color: grey;
+  display:inline-block;
+}
+#result{
+  background-color: black;
+  color: white;
+  width: 30em;
+  height:4em;
+  margin-left:5em;
+  text-align: center;
+  border: 3px solid white;
+  line-height: 4em;
+}
+#userInput input{
+  display:block;
+  margin:4em;
+}
+#userInput{
+  width:20em;
+  height:33em;
+  display:inline-block;
+  float:left;
+  border: 3px solid black;
+}
+#operators{
+  display:inline-block;
+  border: 3px solid green;
+  width:20em;
+  height:33em;
+  flex:1;
+}
+#operators input{
+  display:block;
+  margin-top:3em;
+  margin-left:8em;
+  width:4.5em;
+  height:4.5em;
+  background-color: #87CEFA;
+  border: 1px solid white;
+  border-radius:50%;
+  text-align: center;
+}
+#calcForm{
+  display:flex;
+}

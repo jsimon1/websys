@@ -1,0 +1,11 @@
+Jeremy Simon - Lab 6
+
+Explain what each of your classes and methods does, the order in which methods are invoked, and the flow of execution after one of the operation buttons has been clicked.
+-All of my classes inherit from the same class, operator, which has two variables operand_1 and operand_2. Then there are abstract methods, operate() and getEquation(), that the rest of the classes inherit and will implement individually since each class performs those functions uniquely. The operate function returns an integer and is where the logic of the calculator happens. The getEquation function returns the operation equation as a string so it can be echoed. The get_equation method is always invoked first, and then the operate method is called within the scope of the get_equation method. This can be seen when looking at the flow of execuation. Once the user clicks on an operator button, a post is packaged with the values within the form and the page is reloaded. From there, the if statements check what type of operator the user clicked on by checking the post, and a corresponding object is created with the two inputs. Then in the HTML, the getEquation is called first, where as expained before, operate is called from within that function.
+
+
+Also explain how the application would differ if you were to use $_GET, and why this may or may not be preferable.
+- The difference with $_GET is instead of being packagede into a post, where the user is not directly aware of the post (only the browser is processing this information), the information from the form would be stored in the URL for the $_GET call on the refresh, where the URL is checked for variables that you then set as the operator, and the two variables. This may not be preferable since there is no reason to have the user's information stored in the URL.
+
+Finally, please explain whether or not there might be another (better +/-) way to determine which button has been pressed and take the appropriate action 
+- As long as we are using PHP to process the calculator's logic, this is the best way since we have to refresh the page to give the server the variables from the client. Otherwise, we could just make the whole thing in Javascript and the client could easily determine which button was pressed.

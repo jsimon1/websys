@@ -1,0 +1,9 @@
+*::after{
+	content: "<br>";
+}
+album{
+	font-style: italic;
+}
+artist{
+	color: blue;
+}

@@ -1,0 +1,130 @@
+.header{
+	text-align: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: red;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    height:100%;
+}
+
+#content{
+	margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    background-color: #D4D4D4;
+    padding-top:60px;
+    padding-bottom:150px;
+}
+
+#me{
+	margin-left:100px;
+}
+
+.title{
+	border-bottom: 1px solid #000;
+}
+
+.noBullet{
+	list-style-type: none;
+}
+
+.dates{
+	margin-left:55%;
+	clear:right;
+}
+
+li{
+	float: left;
+	width: 55%;
+}
+
+#education{
+	padding-top:20px;
+}
+
+#experiences{
+	padding-top: 30px;
+}
+
+#courseWork{}
+#skills{
+	padding-top:90px;
+}
+#activities{
+	padding-top: 40px;
+	padding-bottom:70px;
+}
+
+#personalInfo{
+	text-align: center; 
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#aboutMe{
+	margin-left: 10%;
+	margin-right: auto;
+	width:50%;
+	padding-left:10px;
+	float:left;
+	background-color:#83838B
+}
+
+#col1{
+	display:inline-block;
+	float:left;
+	margin-left:12%;
+}
+#col2{
+	display:inline-block;
+}
+
+html{
+	background-color: #6F6F6F;
+	height: 100%;
+}
+
+h1{
+	font-variant: small-caps;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 0;
+	font-size:50px;
+	border-bottom: 2px solid #000;
+}
+
+ul{
+	margin-left:10%;
+	padding-left:5%;
+}
+
+p{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#experiences p{
+	margin-bottom:10%;
+}
+
+h2{
+	font-variant: small-caps;
+	border: 0;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.jobTitle{
+	text-decoration: underline;
+}
+
+
+#footer{
+	border-top: 1px solid black;
+	padding: 0.5em 1em 1em 1em;
+	text-align: center;
+}

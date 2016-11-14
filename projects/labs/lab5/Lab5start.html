@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Lab 5 - Start</title>
+		<!-- Part 2 - Moved files into resorces to get rid of any unecessary file loading times (5/5) -->
+		<script src="resources/jquery.min.js"></script>
+		<!-- Part 2 - Moved CSS to the top of the page so the background loads immediately (3/5) -->
+		<style type="text/css">
+			body {
+			  /* Credit to Salas Photography. Used under the fair use doctrine for educational purposes. */
+			  background:url(resources/lightblue_square.jpg);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bar">
+			<a href="#" id="showall">Show All</a>
+			<ul id="foo" class="bar">
+			<!--Part 2 - Deleted redundent code to reduce file size (2/5) -->
+
+			<!-- Part 2 - Put Javascript at the bottom since the for loop would stop all synchronous loading of the page. Putting it at the bottom so it loads as the other elements of the page load for more fluid loading. (1/5) -->
+			<script>
+			$(document).ready(function() {		
+				for (var i = 0; i < 5000; i++) {
+					// Part 2 - More efficient selector (4/5)
+					$("#foo").append("<li>This is an item in the list. Click to make me disappear.</li>");
+				}
+				
+				//Part 1 - Replaced the .each() with a .on(), much more efficient
+				$("#foo").on("click", "li", function(){
+					$(this).hide(400);
+				});
+
+				$('#showall').on("click", function(){
+					$("ul#foo").show(400);
+				});
+				/*$("#showall").click(function(e) {
+					$("li").each(function() { 
+						$(this).show(400);
+					});
+				});*/
+			});
+		</script>
+		</div>
+	</body>
+</html>

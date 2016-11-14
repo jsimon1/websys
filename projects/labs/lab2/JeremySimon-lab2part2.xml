@@ -1,0 +1,59 @@
+<?xml-stylesheet type="text/css" href="JeremySimonlab2part4.css"?>
+<playlist>
+	<header>
+		<col>Song</col>
+		<col>Artist</col>
+		<col>Album Name</col>
+		<col>Album Cover</col>
+		<col>Release Date</col>
+		<col>Genre</col>
+	</header>
+	<song>
+		<name>Easy</name>
+		<artist><a href = "days.jpg">Real Estate</a></artist>
+		<album>Days</album>
+		<cover><a href = "days.jpg">Link</a></cover>
+		<year>2011</year>
+		<genre>Indie Rock</genre>
+	</song>
+	<song>
+		<name>Divinity</name>
+		<artist>Porter Robinson</artist>
+		<album>Worlds</album>
+		<cover><a href = "worlds.jpg">Link</a></cover>
+		<year>2014</year>
+		<genre>House</genre>
+	</song>
+	<song>
+		<name>Nightcall</name>
+		<artist>Kavinsky</artist>
+		<album>Nightcall</album>
+		<cover><a href = "nightcall.jpg">Link</a></cover>
+		<year>2010</year>
+		<genre>Synthpop, New Wave</genre>
+	</song>
+	<song>
+		<name>Voyager</name>
+		<artist>Daft Punk</artist>
+		<album>Discovery</album>
+		<cover><a href = "discovery.jpg">Link</a></cover>
+		<year>2001</year>
+		<genre>House, Electronic</genre>
+	</song>
+	<song>
+		<name>Zero</name>
+		<artist>Last Dinosaurs</artist>
+		<album>Wellness</album>
+		<cover><a href = "wellness.jpg">Link</a></cover>
+		<year>2013</year>
+		<genre>Indie Rock, Alt Rock</genre>
+	</song>
+	<song>
+		<name>Babe I'm Gonna Leave You</name>
+		<artist>Led Zeppelin</artist>
+		<album>Led Zeppelin</album>
+		<cover><a href = "ledzep.jpg">Link</a></cover>
+		<year>1969</year>
+		<genre>Classic Rock, Hard Rock, Blues Rock</genre>
+	</song>
+</playlist>

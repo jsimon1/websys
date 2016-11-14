@@ -1,0 +1,7 @@
+Jeremy Simon - Lab 3
+
+Part 2:
+I selected the HTML 4.01 Strict DTD since the document is made of HTML elements, and since there's no HTML5, I used HTML 4.01. The Strict version is chosen because it's a W3 standard. The XHTML 1.1 Strict DTD is an alternative, but was not chosen since I wasn't using XML to create the markup of the resume. Most of the markup is semantic, while some divs were used for the intital breakdown of areas on the resume. Each div is a section on the resume, helping me organize all the elements on the page into areas. The markup for the names of the divs are semantically correct, and lists, paragraphs, and header tags are used to markup the elements on the resume. To humans, my markup is semantically intact and thus one could understand what the content of each elemeent was by the name and attribute of tags throughout my code. For example, using the hCard microformat which contains tags such as address, and attributes such as "fn", "add", and "tel" to describe what the meaning of the tag is. This also helps humans who are looking at my content since all of the information is grouped up into one section. For computers, having a markup that could be understood through the CSS as a microformat helps the format work on over all browsers and screens.
+
+Sources:
+http://microformats.org/get-started

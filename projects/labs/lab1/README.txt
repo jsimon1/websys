@@ -1,0 +1,2 @@
+Lab 1 - Jeremy Simon
+Looking at the lecture 3 slides, I was able to find httpd-vhosts.conf and add a virtual-host entry, making the server name lab1.websys since we're setting up a name-based config. At first I was confused and thought that we were doing ip-based config so I made my server name 127.0.0.1, but after talking to Corey I realized the change I needed to make. Then in the hosts file I made the rule that lab1.websys represents the localhost ip so going to lab1.websys would go to the local server, shown by phpinfo(), which is the printout of the page.

@@ -1,0 +1,96 @@
+{
+  "playlist": {
+    "rows": [
+      {
+        "col1" : "Song",
+        "col2" : "Artist",
+        "col3" : "Album Name",
+        "col4" : "Album Cover",
+        "col5" : "Release Date",
+        "col6" : "Genre"
+      },
+      {
+        "song" : "Easy",
+        "artist" : "Real Estate",
+        "artistLink" : "http://www.realestatetheband.com",
+        "albumName" : "Days",
+        "albumLink" : "http://www.allmusic.com/album/days-mw0002187162",
+        "albumCover" : "resources/days.jpg",
+        "release" : "2011",
+        "genres" : 
+          [
+            {"genre" : "Indie Rock"}
+          ]
+      },
+      {
+        "song" : "Divinity",
+        "artist" : "Porter Robinson",
+        "artistLink" : "http://porterrobinson.com",
+        "albumName" : "Worlds",
+        "albumLink" : "http://www.allmusic.com/album/worlds-mw0002690106",
+        "albumCover" : "resources/worlds.jpg",
+        "release" : "2014",
+        "genres" : 
+          [
+            {"genre" : "House"}
+          ]
+      },
+      {
+        "song" : "Nightcall",
+        "artist" : "Kavinsky",
+        "artistLink" : "https://kavinsky.bandcamp.com/music",
+        "albumName" : "NightCall",
+        "albumLink" : "http://www.allmusic.com/album/nightcall-mw0001980570",
+        "albumCover" : "resources/nightcall.jpg",
+        "release" : "2010",
+        "genres" : 
+          [
+            {"genre" : "Synthpop"},
+            {"genre" : "New Wave"}
+          ]
+      },
+      {
+        "song" : "Voyager",
+        "artist" : "Daft Punk",
+        "artistLink" : "https://www.daftpunk.com",
+        "albumName" : "Discovery",
+        "albumLink" : "http://www.allmusic.com/album/discovery-mw0000119560",
+        "albumCover" : "resources/discovery.jpg",
+        "release" : "2001",
+        "genres" : 
+          [
+            {"genre" : "House"},
+            {"genre" : "Electronic"}
+          ]
+      },
+      {
+        "song" : "Zero",
+        "artist" : "Last Dinosaurs",
+        "artistLink" : "https://www.daftpunk.com",
+        "albumName" : "Wellness",
+        "albumLink" : "http://www.allmusic.com/album/wellness-mw0002867148",
+        "albumCover" : "resources/wellness.jpg",
+        "release" : "2013",
+        "genres" : 
+          [
+            {"genre" : "Indie Rock"},
+            {"genre" : "Alt Rock"}
+          ]
+      },
+      {
+        "song" : "Babe I'm Gonna Leave You",
+        "artist" : "Led Zeppelin",
+        "artistLink" : "http://www.ledzeppelin.com",
+        "albumName" : "Led Zeppelin",
+        "albumLink" : "http://www.allmusic.com/album/led-zeppelin-mw0000194593",
+        "albumCover" : "resources/ledzep.png",
+        "release" : "1969",
+        "genres" : 
+          [
+            {"genre" : "Classic Rock"},
+            {"genre" : "Blues Rock"}
+          ]
+      }
+    ]
+  }
+}

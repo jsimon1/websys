@@ -1,0 +1,37 @@
+<projects>
+  <lab>
+    <folderName>lab1</folderName>
+    <description>Setting up XAMPP and configuring Apache for setting up virtual hosts</description>
+    <location>lab1.websys</location>
+  </lab>
+  <lab>
+    <folderName>lab2</folderName>
+    <description>Creating a playlist and styling using semantic markup and CSS.</description>
+    <location>projects/labs/lab2</location>
+  </lab>
+  <lab>
+    <folderName>lab3</folderName>
+    <description>Using Javascript to manipulate CSS and practice selecting HTML elements using Javascript in a web page.</description>
+    <location>projects/labs/lab3/lab3.html</location>
+  </lab>
+  <lab>
+    <folderName>lab4</folderName>
+    <description>Using AJAX to load the data of my playlist, stored in a JSON file, asynchronously after the page loaded after a certain event is triggered.</description>
+    <location>projects/labs/lab4/lab4start.html</location>
+  </lab>
+  <homework>
+    <folderName>homework1</folderName>
+    <description>Styling my Resume with CSS and practicing microformats.</description>
+    <location>projects/homeworks/homework1/JeremySimon-Resume.html</location>
+  </homework>
+  <homework>
+    <folderName>homework2</folderName>
+    <description>Homework has not been given yet - no solution</description>
+    <location>projects/homeworks/homework2/index.html</location>
+  </homework>
+  <homework>
+    <folderName>Signature</folderName>
+    <description>Built an e-mail signature with CSS</description>
+    <location>projects/homeworks/Signature/Signature.html</location>
+  </homework>
+</projects>
