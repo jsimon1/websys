@@ -49,6 +49,11 @@ INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (19450,79,661482693);
 INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (13124,84,661472335);
 INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (12400,86,661481012);
 INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (21935,76,661479752);
+INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (20037,82,661471239);
+INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (19450,62,661481112);
+INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (11223,67,661481012);
+INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (12146,45,661479752);
+INSERT INTO `grades` (`crn`,`grade`,`rin`) VALUES (20037,83,661481112);
 
 7. SELECT * FROM `students` ORDER BY `rin` ASC;
 SELECT * FROM `students` ORDER BY `last name` ASC;
